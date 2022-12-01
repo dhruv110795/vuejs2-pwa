@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import wb from "./registerServiceWorker";
+import './registerServiceWorker'
 
 Vue.prototype.$workbox = wb;
 
